@@ -1,0 +1,18 @@
+CREATE TABLE BuggsManAndWomanBrand (
+id INTEGER PRIMARY KEY,
+item TEXT,
+material TEXT,
+purpose TEXT,
+color TEXT,
+gender TEXT,
+size TEXT,
+shipping_available TEXT,
+pricetag REAL);
+
+INSERT INTO BuggsManAndWomanBrand VALUES (1, "Fitted hat", "suede", "Casual", "Black,Grey,White,Red", "Mens", " S,M,L", "Yes!", 30.75);
+INSERT INTO BuggsManAndWomanBrand VALUES (2, "Fitted shirt","Cotton,Polyester,Dri-Fit", "casual", "Grey,Red,White,Black", "Mens,Womans fit's available", "S,M,L,XL,XXL", "Yes!", 46.99);
+INSERT INTO BuggsManAndWomanBrand VALUES (3," Tank-Top", "Cotton, Polyester", "Activewear", "White, Black", "Mens,Womens available", "S,M,L,XL", "Yes!", 25.99);
+INSERT INTO BuggsManAndWomanBrand VALUES (4, "Fitted run shorts","polyester", "active gear", "Black,White,Grey", "Mens, Womens available", "S,M,L,XL,", "Yes!", 30.00);
+INSERT INTO BuggsManAndWomanBrand VALUES (5,"Running shoes", "Mesh, cold cement, foam", "Running, Fitness", "Grey, Black", "Mens, Womens", "All sizes available!", "Yes", 89.99);
+INSERT INTO BuggsManAndWomanBrand VALUES (6, "Denim T-shirt", "Soft Denim", "Casual", "Carolina blue, grey, black, white", "Mens", "S,M,L,XL,", "In-Store Only!", 42.99);
+INSERT INTO BuggsManAndWomanBrand VALUES (7,"Oversized Hoodie", "Cotton", "Cold gear, casual", "Black, Grey, velvet red, Red","Mens,Womens", "M, L,XL,XXL(Only Medium,Large in womens sizes)", "YES!", 55.99);
